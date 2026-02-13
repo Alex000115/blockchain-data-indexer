@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-indexer",
+  "version": "1.0.0",
+  "description": "Event indexing engine for EVM chains",
+  "main": "indexer.js",
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "lowdb": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node indexer.js"
+  }
+}
